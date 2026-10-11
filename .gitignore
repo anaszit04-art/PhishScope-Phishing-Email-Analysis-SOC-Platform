@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sensitive investigation material
+data/
+reports/
+
+# Local Streamlit configuration and secrets
+.streamlit/
+*.secrets.toml
+
+# Local backups
+*.bak
+*.backup
+
+# Developer files
+.vscode/
+.idea/
+.DS_Store
+
+# Python distributions
+build/
+dist/
+*.egg-info/
